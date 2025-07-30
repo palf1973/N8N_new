@@ -1,8 +1,8 @@
-# Use official n8n image
+# ✅ Start from official n8n Docker image
 FROM n8nio/n8n:latest
 
-# Expose the default port
+# Expose n8n’s default port
 EXPOSE 5678
 
-# Start n8n
-CMD ["n8n", "start"]
+# Command to run n8n
+CMD ["n8n"]
